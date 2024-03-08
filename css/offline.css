@@ -1,0 +1,72 @@
+@import url("../webfonts/AlexBrushRegular/stylesheet.css");
+/**
+ * @copyright	Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, "Sans Serif";
+	font-size: 78%;
+	color: #333333;
+	background-color: #0C3A6D !important;
+	text-align: center;
+	line-height: 1.5;
+}
+div.container {
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+div.proj-main {
+	background-color: #FFF;
+	border: 2px solid #fff;
+	padding: 2px;
+	-moz-box-shadow: 0px 0px 150px #00C4FF;
+	-webkit-box-shadow: 0px 0px 150px #00C4FF;
+	box-shadow: 0px 0px 150px #00C4FF;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+}
+/* -- link styles --------------------------------- */
+
+a:link {
+	color: #CC6600;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #CC6600;
+}
+a:hover {
+	text-decoration: underline;
+	color: #659FDE;
+}
+a:active {
+	text-decoration: none;
+	color: #CC6600;
+}
+.container h1 {
+	font-size: 4em;
+	margin: 0;
+	font-family: lora;
+	font-style: normal;
+	font-weight: 400;
+}
+p.stat {
+	font-size: 3em;
+	font-style: italic;
+	color: #0C3A6D;
+	font-family: Garamond, Georgia, Arial;
+	margin: 0.1em 0;
+}
+
+@media screen and (min-width:768px) {
+	div.container {
+		margin-top: 7em;		
+	}
+}
